@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sobat Design</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontawesome-all.min.css">
+<link rel="stylesheet" href="css/tooplate-style.css"> 
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+  <table class="table-responsive-xl" width="1248" border="0" align="center">
+
+    <tr>
+      <th height="29" scope="row">&nbsp;</th>
+      <td width="744" bgcolor="#42B568" style="border-top: solid 8px rgb(8, 140, 0);">
+      <div align="center" class="style1">SOBAT DESIGN </div></td>
+    </tr>
+
+    <tr>
+      <th width="170" height="49" nowrap="nowrap"bgcolor="#42B548" style="border-top: solid 8px rgb(8, 140, 0);" scope="row">
+      <a href="#">Hightlight Katalog </a></th>
+
+      <th nowrap="nowrap" bgcolor="#42B548" style="border-top: solid 8px rgb(8, 140, 0);">
+      <div align="center">
+      <a href="#">Home</a>
+      <a href="#">Katalog</a>
+      <a href="#">Design 2D</a>
+      <a href="#">Design 3D</a>
+      <a href="#">Kontak Kami </a></div></th>
+
+      <td width="191" bgcolor="#42B548" style="border-top: solid 8px rgb(8, 140, 0);">
+      <div align="center">
+      <a href="#"> Register</a>  	</div>  	</td>
+    </tr>
+
+    <tr>
+      <th height="130" scope="row">
+      <div class="" align="center">
+      <img class="foto" src="../../Gambar/Kaos.jpg" alt="" width="100"height="128" align="middle"/>
+      <img class="foto" src="../../Gambar/Masjid Al Fatih.jpg" alt="" width="100"height="128" align="middle"/>
+      <img class="foto" src="../../Gambar/Sobad Gurun/SD_Sepatu.jpg" alt="" width="150"height="100" align="middle"/>
+      
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div></th>
+
+      <td><p align="center" class="judul"> <img src="../../Gambar/SobatDesign.png" width="149" height="44"/></p>
+
+      <p class="judul"> <strong>Tentang Produk</strong></p>
+      <p>Kami menerima berbagai macam design 2D maupun 3D , seperti design Poster, Undangan, juga design Rumah , Exterior dan Interior Kami juga menerima edit foto dan design vector untuk Kado ultah, Wisuda dan lain-lain. Kunjungi juga akun Instagram kami <a href="https://www.instagram.com/sobatdesign_/?hl=id" target="_blank" style="color:DodgerBlue;">@sobatdesign_</a> </p><hr/></td>
+
+     <td>
+     <form class="login" action="#" method="GET">
+      <br><center>Username<input type="text"  name="username"/></center>
+      <br><center>Password<input type="password" name="password"/></center>
+      <br><input type="submit" class="btn btn-success btn-block" name="login" value="Login">
+    </form>
+	</tr>
+  	</table>
+</div>
+
+
+<script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("foto");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script>
+ var renderPage = true;
+
+   if (navigator.userAgent.indexOf('MSIE') !== -1
+   || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+   alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+   renderPage = false;
+    }
+</script>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+      <footer class="row">
+      <div class="col-xl-12">
+      <p class="text-center p-1">Copyright &copy;Sobat Design by Hamzah Risvi <span class="tm-current-year">2020</span></p>
+      </div>
+      </footer>
+      <span class="align-text-bottom"></span>
+</body>
+</html>
